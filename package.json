@@ -1,0 +1,30 @@
+{
+  "name": "autocomplete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kniknak/autocomplete.git",
+  "author": "g9 <georgy.devyatkin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "node-sass": "^4.14.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "scss-resets": "^0.5.2"
+  }
+}
